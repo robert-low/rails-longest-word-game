@@ -1,5 +1,5 @@
 class GamesController < ApplicationController
-  VOWELS = %w(A E I O U)
+  VOWELS = %w[A E I O U]
 
   def new
     @letters = Array.new(5) { VOWELS.sample }
