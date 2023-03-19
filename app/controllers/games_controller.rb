@@ -8,5 +8,17 @@ class GamesController < ApplicationController
   end
 
   def score
+    # get the random letters from the params
+    @letters = params[:letters].split
+    # get the letters submitted by the user, split them up
+    @word = (params[:word] || '').upcase
+    @included = @word.chars.all? { |letter| word.count(letter) <= letters.count(letter) }
+    @english_word = included?(@word, @letters)
+  end
+
+  private
+
+  def included?(word, letters)
+    word.chars.all? { |letter| word.count(letter) <= letters.count(letter) }
   end
 end
