@@ -2,9 +2,13 @@
 
 A game where you can build the longest word possible from a limited selection of letters.
 
-* Ruby version
+## Ruby Version
 
-* System dependencies
+3.1.2
+
+## Rails Version
+
+7.0.4.3
 
 * Configuration
 
