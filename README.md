@@ -1,9 +1,6 @@
-# README
+# Longest Word
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+A game where you can build the longest word possible from a limited selection of letters.
 
 * Ruby version
 
