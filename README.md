@@ -10,16 +10,17 @@ A game where you can build the longest word possible from a limited selection of
 
 7.0.4.3
 
-* Configuration
+## Running the app locally
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the repo
+   ```sh
+   git clone https://github.com/robert-low/rails-longest-word-game.git
+   ```
+2. In your terminal run
+   ```sh
+   rails s
+   ```
+3. Go to
+   ```sh
+   http://localhost:3000/new
+   ```
