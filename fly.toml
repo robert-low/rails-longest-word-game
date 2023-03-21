@@ -1,0 +1,7 @@
+# fly.toml file generated for longest-word-fly on 2023-03-21T16:50:32Z
+
+app = "longest-word-fly"
+primary_region = "lhr"
+
+[build]
+  image = "flyio/hellofly:latest"
